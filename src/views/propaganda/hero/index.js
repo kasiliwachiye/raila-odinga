@@ -18,21 +18,21 @@ const Hero = ({ data }) => {
         <TopImage data-scroll data-scroll-speed={1}>
           <StyledImage
             image={data.prop_poster1.childImageSharp.gatsbyImageData}
-            alt="Stalin's propaganda"
+            alt="Raila Odinga campaign rally"
             objectFit="contain"
           />
         </TopImage>
         <MiddleImage data-scroll data-scroll-speed={3}>
           <StyledImage
             image={data.prop_poster2.childImageSharp.gatsbyImageData}
-            alt="Stalin's propaganda"
+            alt="Supporters during election campaigns"
             objectFit="contain"
           />
         </MiddleImage>
         <BottomImage data-scroll data-scroll-speed={2}>
           <StyledImage
             image={data.prop_poster3.childImageSharp.gatsbyImageData}
-            alt="Stalin's propaganda"
+            alt="Queue at a Kenyan polling station"
             objectFit="contain"
           />
         </BottomImage>
@@ -41,13 +41,13 @@ const Hero = ({ data }) => {
         </NumberWrapper>
         <Row>
           <div data-scroll data-scroll-speed={1}>
-            <BigTitleText>Pro</BigTitleText>
+            <BigTitleText>Elec</BigTitleText>
           </div>
           <div data-scroll data-scroll-speed={3}>
-            <BigTitleText>paga</BigTitleText>
+            <BigTitleText>tion</BigTitleText>
           </div>
           <div data-scroll data-scroll-speed={2}>
-            <BigTitleText>nda</BigTitleText>
+            <BigTitleText>s</BigTitleText>
           </div>
         </Row>
       </Container>

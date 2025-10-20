@@ -9,15 +9,15 @@ const About = () => {
         <Row textTop>
           <ParaWrapper top>
             <NormalText>
-              Stalin's cult was dependent on Lenin's legacy. Stalin rewrote the past and falsified
-              photographs
+              Odinga's legacy builds on the nationalist foundation laid by his father while carving
+              a reformist path of his own.
             </NormalText>
           </ParaWrapper>
         </Row>
         <ParaWrapper>
           <NormalText>
-            to ensure his succession. He upheld the core principles of Marxist-Leninism,
-            strengthening his cult.
+            He remains a touchstone for opposition politics, urging unity, constitutionalism, and
+            inclusive growth in Kenya's evolving democracy.
           </NormalText>
         </ParaWrapper>
       </Container>

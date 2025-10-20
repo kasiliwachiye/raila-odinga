@@ -9,11 +9,12 @@ const Hero = ({ data }) => {
     <FirstPanel>
       <SplitWrapper>
         <Row>
-          <BigTitleText>The Great Purge</BigTitleText>
+          <BigTitleText>Years of Detention</BigTitleText>
           <ParaBox>
             <ParaText number="01">
-              The Great Purge, also known as the “Great Terror”, was bloody polticial compaign meant
-              to kill off all communist members who were in disagreement with Stalin.
+              Following the 1982 attempted coup, Raila Odinga was detained without trial for six
+              years, accused of abetting the uprising. The experience deepened his resolve to press
+              for political pluralism despite intense surveillance.
             </ParaText>
           </ParaBox>
         </Row>
@@ -22,12 +23,12 @@ const Hero = ({ data }) => {
             <ImageContainer>
               <StyledImage
                 image={data.purge_people.childImageSharp.gatsbyImageData}
-                alt="People during the Great Purge"
+                alt="Raila Odinga speaking after release"
                 style={{ position: 'absolute' }}
               />
             </ImageContainer>
           </ImageWrapper>
-          <BigTitleText>Большой террор</BigTitleText>
+          <BigTitleText>Reform Struggle</BigTitleText>
         </SecondLine>
       </SplitWrapper>
     </FirstPanel>

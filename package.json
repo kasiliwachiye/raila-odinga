@@ -1,7 +1,7 @@
 {
-  "name": "@kyryloorlov/stalin",
+  "name": "@kyryloorlov/raila-odinga",
   "private": true,
-  "description": "A website showcasing Stalin's rule in the USSR.",
+  "description": "A website chronicling Raila Amolo Odinga's journey in Kenyan politics.",
   "version": "0.1.0",
   "author": "Kyrylo Orlov <dev@kyryloorlov.com>",
   "dependencies": {
@@ -44,9 +44,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kyryloren/stalin"
+  "url": "https://github.com/kasiliwachiye/raila-odinga"
   },
   "bugs": {
-    "url": "https://github.com/kyryloren/stalin/issues"
+  "url": "https://github.com/kasiliwachiye/raila-odinga/issues"
   }
 }

@@ -36,21 +36,21 @@ const About = ({ data }) => {
             <ImageAnim ref={el => (image = el)} />
             <StyledImage
               image={data.fyp_poster1.childImageSharp.gatsbyImageData}
-              alt="Propaganda from the Five Year Plan"
+              alt="Young Raila Odinga during his studies"
               style={{ position: 'absolute' }}
             />
           </Col>
           <Col>
             <ParaText number="01">
-              Stalin did this by taking control of the economy and using forced collectivization of
-              agriculture. In forced colectivization the government took control of private farms
-              and forced them to work for massive state owned enterprises, those who refused were
-              exiled/killed. Many were also sent to the Gulag, a prison labor system established
-              during the first five year plan.
+              Raila Amolo Odinga was born on 7 January 1945 in Maseno, Kisumu County, to
+              independence leader Jaramogi Oginga Odinga and Mary Ajuma. Growing up in a household
+              immersed in Kenya's liberation politics shaped his sense of public service.
             </ParaText>
             <ParaText number="02">
-              In 1929 the number of collectivized farms was 5%, but by 1939 the number was up to
-              99%. But collectivization did a lot of harm, causing a famine and millions dead
+              He studied at Maranda High School before continuing his education in East Germany,
+              attending the Herder Institute and the Technical University of Magdeburg. Returning in
+              1970, he lectured in mechanical engineering at the University of Nairobi and
+              co-founded the gas cylinder firm East African Spectre.
             </ParaText>
           </Col>
         </Row>

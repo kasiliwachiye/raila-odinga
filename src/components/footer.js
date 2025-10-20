@@ -91,47 +91,7 @@ const Footer = () => {
               </LinkWrapper>
               <LinkWrapper>
                 <StyledLink
-                  href="https://www.history.com/topics/russia/joseph-stalin"
-                  target="_blank"
-                  rel="noopener noreferrer">
-                  History.com
-                </StyledLink>
-              </LinkWrapper>
-              <LinkWrapper>
-                <StyledLink
-                  href="https://www.rferl.org/a/27774611.html"
-                  target="_blank"
-                  rel="noopener noreferrer">
-                  rferl.com
-                </StyledLink>
-              </LinkWrapper>
-              <LinkWrapper>
-                <StyledLink
-                  href="https://www.crimemuseum.org/crime-library/international-crimes/stalins-security-force"
-                  target="_blank"
-                  rel="noopener noreferrer">
-                  crimemuseum.org
-                </StyledLink>
-              </LinkWrapper>
-              <LinkWrapper>
-                <StyledLink
-                  href="https://study.com/academy/lesson/stalins-five-year-plans-collectivization-industrialization.html"
-                  target="_blank"
-                  rel="noopener noreferrer">
-                  study.com
-                </StyledLink>
-              </LinkWrapper>
-              <LinkWrapper>
-                <StyledLink
-                  href="https://www.pbs.org/redfiles/prop/inv/prop_inv_ins.htm"
-                  target="_blank"
-                  rel="noopener noreferrer">
-                  pbs.org
-                </StyledLink>
-              </LinkWrapper>
-              <LinkWrapper>
-                <StyledLink
-                  href="https://www.britannica.com/event/Great-Purge"
+                  href="https://www.britannica.com/biography/Raila-Odinga"
                   target="_blank"
                   rel="noopener noreferrer">
                   britannica.com
@@ -139,20 +99,60 @@ const Footer = () => {
               </LinkWrapper>
               <LinkWrapper>
                 <StyledLink
-                  href="https://www.loc.gov/exhibits/archives/intn.html"
+                  href="https://www.bbc.com/news/world-africa-12375431"
                   target="_blank"
                   rel="noopener noreferrer">
-                  loc.gov
+                  bbc.com
+                </StyledLink>
+              </LinkWrapper>
+              <LinkWrapper>
+                <StyledLink
+                  href="https://www.nation.africa/kenya/news/politics/raila-odinga-biography-3792790"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  nation.africa
+                </StyledLink>
+              </LinkWrapper>
+              <LinkWrapper>
+                <StyledLink
+                  href="https://www.theguardian.com/world/2018/mar/09/uhuru-kenyatta-raila-odinga-handshake"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  theguardian.com
+                </StyledLink>
+              </LinkWrapper>
+              <LinkWrapper>
+                <StyledLink
+                  href="https://www.aljazeera.com/news/2022/9/5/raila-odinga-accepts-supreme-court-ruling"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  aljazeera.com
+                </StyledLink>
+              </LinkWrapper>
+              <LinkWrapper>
+                <StyledLink
+                  href="https://au.int/en/pressreleases/20181020/au-chairperson-appoints-raila-odinga-high-representative"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  au.int
+                </StyledLink>
+              </LinkWrapper>
+              <LinkWrapper>
+                <StyledLink
+                  href="https://www.theafricareport.com/264537/raila-odinga-legacy-questions-after-2022-election/"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  theafricareport.com
                 </StyledLink>
               </LinkWrapper>
             </LinksList>
           </Col>
         </Row>
         <Row bottom>
-          <SmallText>&copy; 2021</SmallText>
+          <SmallText>&copy; 2025</SmallText>
           <div>
             <StyledLink
-              href="https://kyryloorlov.com?ref=stalin"
+              href="https://kyryloorlov.com?ref=raila"
               target="_blank"
               rel="noopener noreferrer">
               Website by Kyrylo

@@ -60,11 +60,11 @@ const Nav = () => {
       <NavWrap>
         <div />
         <div>
-          <NavLink onClick={() => scrollToSection('personality')}>Cult of Personality</NavLink>
-          <NavLink onClick={() => scrollToSection('purge')}>Great Purge</NavLink>
-          <NavLink onClick={() => scrollToSection('nkvd')}>NKVD</NavLink>
-          <NavLink onClick={() => scrollToSection('economy')}>Economy</NavLink>
-          <NavLink onClick={() => scrollToSection('propaganda')}>Propaganda</NavLink>
+          <NavLink onClick={() => scrollToSection('personality')}>Legacy</NavLink>
+          <NavLink onClick={() => scrollToSection('purge')}>Detentions</NavLink>
+          <NavLink onClick={() => scrollToSection('nkvd')}>Reform</NavLink>
+          <NavLink onClick={() => scrollToSection('economy')}>Early Life</NavLink>
+          <NavLink onClick={() => scrollToSection('propaganda')}>Elections</NavLink>
         </div>
         <TogglerWrapper>
           <label>

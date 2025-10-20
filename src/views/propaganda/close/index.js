@@ -19,13 +19,13 @@ const Close = ({ data }) => {
           <TopImage data-scroll data-scroll-speed={2}>
             <StyledImage
               image={data.prop_poster5.childImageSharp.gatsbyImageData}
-              alt="Stalin's propaganda"
+              alt="Supporters waving Raila Odinga banners"
               objectFit="contain"
             />
           </TopImage>
           <NormalText>
-            Propaganda even infiltrated education, as teachers were forced to teach Communist
-            principles and glorify Stalin’s rule.
+            Odinga continued to press for credible polls through civic education and observer
+            engagement across the country.
           </NormalText>
         </Row>
         <Row>
@@ -33,7 +33,7 @@ const Close = ({ data }) => {
             <BottomImage>
               <StyledImage
                 image={data.prop_poster6.childImageSharp.gatsbyImageData}
-                alt="Stalin's propaganda"
+                alt="Election officials during a results briefing"
                 objectFit="contain"
               />
             </BottomImage>
@@ -41,18 +41,15 @@ const Close = ({ data }) => {
           <Row row>
             <HalfCol>
               <ParaText number="03">
-                Other media forms like the radio, posters, and cinema were propagandized with
-                Communist themes and symbols to help reach the illiterate of Russia. Newspapers and
-                books had also been seized and put under propagandist publication, with opposing
-                newspapers and books being shut down or purged.
+                He challenged the 2013 presidential tally at the Supreme Court and later saw the
+                2017 poll annulled, exposing systemic weaknesses in vote transmission and tallying.
               </ParaText>
             </HalfCol>
             <HalfCol>
               <ParaText number="04">
-                Propaganda was also used to support his controversial policies, like
-                collectivization. A tale of Stakhanov was even coined, depicting him mining 105
-                tonnes of coal in one shift and praising him as a hero of socialist workers; hoping
-                to instill this work ethic into the working people.
+                Grassroots networks around his campaigns pushed for biometric registration,
+                transparent results portals, and inclusive electoral commissions to rebuild public
+                trust.
               </ParaText>
             </HalfCol>
           </Row>

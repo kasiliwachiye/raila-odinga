@@ -4,10 +4,10 @@
   </a>
 </p>
 <h1 align="center">
-  stalin.kyryloorlov.com
+  raila.kyryloorlov.com
 </h1>
 <p align="center">
-  The Stalin's Rule website, built with <a href="https://www.gatsbyjs.org" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com" target="_blank">Netlify</a>.
+  The Raila Odinga Journey website, built with <a href="https://www.gatsbyjs.org" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com" target="_blank">Netlify</a>.
 </p>
 <p align="center">
   <a href="https://app.netlify.com/sites/kyrylo-v4/deploys" target="_blank">
@@ -28,8 +28,8 @@
 2. Clone the repository and change directories
 
     ```shell
-    git clone https://github.com/kyryloren/portfolio-v4
-    cd portfolio-v4
+    git clone https://github.com/kasiliwachiye/raila-odinga
+    cd raila-odinga
     ```
 
 3. Install dependencies

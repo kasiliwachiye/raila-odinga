@@ -46,32 +46,31 @@ const Close = ({ data }) => {
     <AboutSection ref={el => (sectionContainer = el)}>
       <Container>
         <TopLine ref={el => (textRef.current[0] = el)}>
-          <BigTitle>All-powerful</BigTitle>
+          <BigTitle>A lasting legacy</BigTitle>
         </TopLine>
         <SecondLine ref={el => (textRef.current[1] = el)}>
-          <BigTitle>All-knowing</BigTitle>
+          <BigTitle>Shared memory</BigTitle>
         </SecondLine>
         <ThirdLine ref={el => (textRef.current[2] = el)}>
-          <BigTitle>Our leader</BigTitle>
+          <BigTitle>National tributes</BigTitle>
         </ThirdLine>
         <Row>
           <Col>
             <ParaText number="01">
-              Stalin's propaganda was everywhere, controlling people and brain washing them to
-              believing that Stalin was a god-like figure.
+              Odinga's legacy rests on decades of opposition leadership, coalition building, and a
+              reputation for speaking out during constitutional crises.
             </ParaText>
             <ParaText number="02">
-              His image was everywhere. Stalin's propaganda served well in masking the darker side
-              of the regime and in bending the truth. He relied on the hypnotic power of mass
-              ideology to condition people into believing he was working to achieve perfect
-              socialism.
+              He has often led national mourning after the passing of major figures and disaster
+              victims, offering unity during sombre vigils for leaders such as Jaramogi Oginga
+              Odinga and Mwai Kibaki.
             </ParaText>
           </Col>
           <Col>
             <ImageWrapper>
               <StyledImage
                 image={data.cult_poster2.childImageSharp.gatsbyImageData}
-                alt="Cult of personality poster"
+                alt="Raila Odinga at a national memorial service"
               />
             </ImageWrapper>
           </Col>

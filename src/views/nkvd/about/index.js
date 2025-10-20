@@ -9,20 +9,18 @@ const About = ({ data }) => {
       <Row>
         <Col>
           <ParaText number="01">
-            The NKVD’s main job was to ensure national security, however it was carried out in very
-            radical ways. They would find and arrest anyone suspected of being
-            anti-Communist/Stalinist, these people would then either be killed or sent to the Gulag.
+            Odinga campaigned vigorously for Kenya's 2010 constitution, rallying support for a bill
+            of rights, devolution, and independent institutions that rebalanced executive power.
           </ParaText>
           <ParaText number="02">
-            Not long after their establishment the NKVD became feared by all citizens throughout the
-            USSR. This intimidation proved useful as people would spy on neighbors and report them
-            to the NKVD, believing that if they didn’t they instead would get reported on.
+            Following the tense 2017 election, he forged a handshake with President Uhuru Kenyatta,
+            opening space for the Building Bridges Initiative and cooperative reform dialogue.
           </ParaText>
         </Col>
         <Col>
           <StyledImage
             image={data.nkvd_police2.childImageSharp.gatsbyImageData}
-            alt="Stalin's Secret Police"
+            alt="Leaders after the 2018 handshake"
             style={{ position: 'absolute' }}
           />
         </Col>

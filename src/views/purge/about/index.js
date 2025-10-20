@@ -9,7 +9,7 @@ const About = ({ data }) => {
       <Row>
         <StyledImage
           image={data.purge_rubble.childImageSharp.gatsbyImageData}
-          alt="Rubble during the Great Purge"
+          alt="Supporters calling for Odinga's release"
         />
       </Row>
       <StyledSplitWrapper>
@@ -17,34 +17,32 @@ const About = ({ data }) => {
           <StyledRow>
             <ParagraphWrapper>
               <ParaText number="02">
-                Was started by the killing of Sergei Kirov who was a political leader in the
-                Leningrad apparatus that had gained massive popularity. Stalin, being very paranoid,
-                staged his with the NKVD, using it as a pretext to The Great Purge
+                Detained at Kamiti Maximum Security Prison after the coup attempt, Odinga spent
+                years in solitary confinement while his family campaigned publicly for his release.
               </ParaText>
             </ParagraphWrapper>
             <ParagraphWrapper>
               <ParaText number="03">
-                Using the killing of Kirov, Stalin began arresting other innocent political members
-                and forming staged trials for others. In these staged trials people were tortured
-                behind the scenes into falsely admitting to the crimes in court.
+                He was freed in 1988 but arrested again within months for speaking out on
+                single-party rule, enduring renewed interrogations before gaining conditional
+                freedom in 1989.
               </ParaText>
             </ParagraphWrapper>
           </StyledRow>
-          <BigTitleText>November 1938</BigTitleText>
+          <BigTitleText>February 1988</BigTitleText>
         </Row>
         <Row>
-          <BigTitleText>August 1936—</BigTitleText>
+          <BigTitleText>August 1987—</BigTitleText>
           <StyledImage
             secondImage
             image={data.purge_soldiers.childImageSharp.gatsbyImageData}
-            alt="Soldiers during the Great Purge"
+            alt="Pro-reform demonstrators during Odinga detentions"
           />
           <StyledRow>
             <ParagraphWrapper>
               <ParaText number="04">
-                Altogether the Purges helped to maintain Stalin’s authority and further intimidate
-                any other political members. The Great Terror is sometimes thought of as the crime
-                of the century, as estimated deaths near 1 million.
+                International human rights organisations and church leaders rallied around his case,
+                turning the imprisonment into a focal point for Kenya's pro-democracy movement.
               </ParaText>
             </ParagraphWrapper>
           </StyledRow>

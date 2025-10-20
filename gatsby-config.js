@@ -2,9 +2,9 @@ require('dotenv').config();
 
 module.exports = {
   siteMetadata: {
-    title: `Stalin's Rule In the USSR`,
-    description: `Joseph Stalin was a revolutionary and the ruler of the Soviet Union. Stalin transformed the Soviet Union from a peasant society into a military superpower.`,
-    siteUrl: 'https://stalin.kyryloorlov.com',
+    title: `Raila Odinga's Journey in Kenya`,
+    description: `Raila Amolo Odinga is a Kenyan political leader whose career spans engineering, activism, and national reform.`,
+    siteUrl: 'https://raila.kyryloorlov.com',
     image: '/og.png',
     twitterUsername: '@kyryloren',
   },

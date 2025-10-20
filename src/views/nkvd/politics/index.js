@@ -40,31 +40,31 @@ const Politics = ({ data }) => {
   return (
     <PoliticsSection ref={el => (scrollContainer = el)}>
       <FirstLine>
-        <BigTitle>Control</BigTitle>
+        <BigTitle>Reform</BigTitle>
         <ImageWrapper>
           <StyledImage
             image={data.nkvd_police4.childImageSharp.gatsbyImageData}
-            alt="Stalin's NKVD"
+            alt="Leaders affirming the 2010 constitution"
             style={{ position: 'absolute' }}
           />
         </ImageWrapper>
       </FirstLine>
       <SecondLine>
-        <SpinningText ref={el => (label = el)}>NKVD</SpinningText>
-        <BigTitle>The Politics</BigTitle>
+        <SpinningText ref={el => (label = el)}>Dialogue</SpinningText>
+        <BigTitle>Governance</BigTitle>
       </SecondLine>
       <Row>
         <Col>
           <ParaText number="03">
-            As Stalin’s power increased so did the secret police of the USSR, forming the People’s
-            Commissariat for Internal Affairs, which is abbreviated as the NKVD in Russian. The
-            police force went from being used purely for enforcement to a political weapon.
+            Odinga championed the 2010 constitutional referendum, arguing for devolution,
+            independent commissions, and safeguards against executive overreach to improve service
+            delivery.
           </ParaText>
         </Col>
         <Col>
           <StyledImage
             image={data.nkvd_police3.childImageSharp.gatsbyImageData}
-            alt="Stalin's Secret Police"
+            alt="Constitutional referendum celebrations"
             style={{ position: 'absolute' }}
           />
         </Col>
@@ -72,13 +72,14 @@ const Politics = ({ data }) => {
       <Row bottom pt>
         <ParaWrapper top>
           <NormalText>
-            The NKVD was very powerful, with Communist support and a massive intelligence system,
+            The 2018 handshake with President Kenyatta set up joint taskforces that examined
+            electoral justice, inclusivity, and national cohesion.
           </NormalText>
         </ParaWrapper>
         <ParaWrapper bottom>
           <NormalText>
-            allowing their paramilitary to carry out domestic and ethnic repression when necessary,
-            on top of political missions.
+            These dialogues fed into the Building Bridges Initiative proposals, focusing on shared
+            prosperity and taming polarising winner-take-all politics.
           </NormalText>
         </ParaWrapper>
       </Row>
@@ -86,15 +87,15 @@ const Politics = ({ data }) => {
         <Col smaller>
           <StyledImage
             image={data.nkvd_police5.childImageSharp.gatsbyImageData}
-            alt="Stalin's Secret Police"
+            alt="African Union infrastructure briefing"
             style={{ position: 'absolute' }}
           />
         </Col>
         <Col reverse smaller np>
           <ParaText number="04">
-            After forming the NKVD, which was separated from party control and clear governmental
-            regulation, they became tools for Stalin to carry out his Communist Agenda. This
-            included carrying out the Great Purges, political assassinations and kidnappings.
+            As the African Union High Representative for Infrastructure, he promoted continental
+            transport corridors while advocating domestic reforms that aligned Kenya with regional
+            integration goals.
           </ParaText>
         </Col>
       </Row>

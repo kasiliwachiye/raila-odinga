@@ -6,31 +6,30 @@ const About = ({ data }) => {
   return (
     <AboutSection>
       <Line1>
-        <NormalText>Stalin used propaganda as a means of swaying the people of the</NormalText>
+        <NormalText>Odinga contested national elections as a voice for multi-party democracy.</NormalText>
       </Line1>
       <Line2>
         <NormalText>
-          USSR to his regime and its views, while also demolishing the public view of his opponents.
+          His rallies drew diverse coalitions seeking constitutional change and accountable
+          leadership.
         </NormalText>
       </Line2>
       <Row>
         <Col text>
           <ParaText number="01">
-            One of the biggest uses of Propaganda by Stalin was on children. He believed that to
-            succeed as a country he had to make a “new man” or new generation fully devoted and in
-            belief in the Communist party and its agenda.
+            He ran for president in 1997 and later joined the reformist National Rainbow Coalition
+            that swept the 2002 polls, helping end KANU's long rule and paving the way for new
+            alliances.
           </ParaText>
           <ParaText number="02">
-            One example was the folk tale Stalin made starring Pavlik Morozov, a boy who denounced
-            his father to the NKVD for hoarding grain. Pavlik became a symbol of ideal orthodox
-            behavior, shaping the minds of a whole young generation towards radical support of their
-            leader.
+            The disputed 2007 election sparked nationwide violence, leading to a mediated coalition
+            government in which Odinga served as prime minister to stabilise the country.
           </ParaText>
         </Col>
         <Col>
           <StyledImage
             image={data.prop_poster4.childImageSharp.gatsbyImageData}
-            alt="Stalin's propaganda"
+            alt="Raila Odinga on the campaign trail"
             objectFit="contain"
           />
         </Col>

@@ -19,47 +19,44 @@ const Results = ({ data }) => {
     <ResultsSection>
       <Container>
         <TopRow>
-          <BigTitle>A failed</BigTitle>
-          <BigTitle>Success</BigTitle>
+          <BigTitle>Early</BigTitle>
+          <BigTitle>Influences</BigTitle>
         </TopRow>
         <Row>
           <Col image>
             <TopImage data-scroll data-scroll-speed={2}>
               <StyledImage
                 image={data.fyp_poster2.childImageSharp.gatsbyImageData}
-                alt="Propaganda from the Five Year Plan"
+                alt="Raila Odinga as a young engineer"
                 objectFit="contain"
               />
             </TopImage>
             <BottomImage data-scroll data-scroll-speed={1}>
               <StyledImage
                 image={data.fyp_poster3.childImageSharp.gatsbyImageData}
-                alt="Propaganda from the Five Year Plan"
+                alt="Archival material from Raila Odinga's early career"
                 objectFit="contain"
               />
             </BottomImage>
           </Col>
           <Col>
             <NormalText>
-              Stalin’s Five Year Plan achieved amazing success. However, most of this came at the
-              cost of many human lives.
+              Odinga's formative years blended scientific study with exposure to Kenya's push for
+              inclusive democracy.
             </NormalText>
           </Col>
         </Row>
         <HalfRow>
           <HalfCol>
             <ParaText number="03">
-              The USSR did succeed in modernizing and becoming a military threat. Some examples
-              include imporved eletricity supply and an increase in machines produced. Heavy
-              industries also saw an increase in output and productivity.
+              At the University of Nairobi he mentored engineering students while building links to
+              industry that supported Kenya's young manufacturing sector.
             </ParaText>
           </HalfCol>
           <HalfCol>
             <ParaText number="04">
-              The five year plans were poorly organized, leading to wastes in resources. These plans
-              were also executed through severe means, usually at the cost of human lives and
-              rights. This included many accidental deaths, slave labor, labor camps (Gulag), and
-              horrible work conditions.
+              Family expectations and international exposure kept him engaged with debates on
+              governance, pointing him toward public advocacy beyond the workshop.
             </ParaText>
           </HalfCol>
         </HalfRow>

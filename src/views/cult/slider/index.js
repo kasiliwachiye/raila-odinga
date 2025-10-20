@@ -35,19 +35,19 @@ const Slider = ({ data }) => {
         <ImageContainer>
           <StyledImage
             image={data.cult_poster3.childImageSharp.gatsbyImageData}
-            alt="Cult of personality poster"
+            alt="Raila Odinga addressing a rally"
           />
         </ImageContainer>
         <ImageContainer>
           <StyledImage
             image={data.cult_poster4.childImageSharp.gatsbyImageData}
-            alt="Cult of personality poster"
+            alt="Supporters celebrating electoral reforms"
           />
         </ImageContainer>
         <ImageContainer>
           <StyledImage
             image={data.cult_poster5.childImageSharp.gatsbyImageData}
-            alt="Cult of personality poster"
+            alt="Community meeting with Odinga allies"
           />
         </ImageContainer>
       </SliderRow>
@@ -55,18 +55,15 @@ const Slider = ({ data }) => {
         <TextRow>
           <Col>
             <ParaText number="03">
-              Stalin also used education and the youth to create a new generation of believers that
-              would help maintain his position in society and his control over people. Different
-              playground games were transformed into their own Soviet versions, like Cowboys and
-              Indians became Reds and Whites.
+              In his later years Odinga mentored emerging leaders, championed civic education, and
+              toured counties to support devolved development agendas.
             </ParaText>
           </Col>
           <Col>
             <ParaText number="04">
-              Stalin was able to carve out a position of power for himself. His terror and
-              propaganda machine allowed him to maintain power throughout his rule. Anyone who
-              opposed Stalin was seen as an enemy of the party, and in that sense also an enemy of
-              the people.
+              His 2022 presidential bid emphasised social protection and infrastructure, and after
+              the Supreme Court upheld the results he urged peace, reinforcing his role as an elder
+              statesman.
             </ParaText>
           </Col>
         </TextRow>

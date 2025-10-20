@@ -50,17 +50,17 @@ const Hero = ({ data }) => {
         <ColItem>
           <BigTitle>
             <Overflow>
-              <div ref={el => (titleText.current[0] = el)}>Five</div>
+              <div ref={el => (titleText.current[0] = el)}>Early</div>
             </Overflow>
             <Overflow>
-              <div ref={el => (titleText.current[1] = el)}>Year</div>
+              <div ref={el => (titleText.current[1] = el)}>Life</div>
             </Overflow>
             <Overflow>
-              <div ref={el => (titleText.current[2] = el)}>Plan</div>
+              <div ref={el => (titleText.current[2] = el)}>Years</div>
             </Overflow>
           </BigTitle>
           <Overflow>
-            <SubTitle ref={el => (titleText.current[3] = el)}>Oct 1st, 1928—1933</SubTitle>
+            <SubTitle ref={el => (titleText.current[3] = el)}>Jan 7, 1945—Early Career</SubTitle>
           </Overflow>
         </ColItem>
         <ColItem image>
@@ -76,21 +76,21 @@ const Hero = ({ data }) => {
       <AboutText>
         <SplitWrapper>
           <ParaWrapper top>
-            <CaptionText>After the first 5 year plan</CaptionText>
-            <CaptionText>the industrial output of</CaptionText>
-            <CaptionText>the USSR increased by 55%</CaptionText>
+            <CaptionText>Born in Maseno, Kenya on 7 January 1945</CaptionText>
+            <CaptionText>Son of Jaramogi Oginga Odinga and Mary Ajuma</CaptionText>
+            <CaptionText>Engineer trained in East Germany before returning</CaptionText>
           </ParaWrapper>
           <ParaWrapper top>
             <NormalText>
-              The Five Year Plan was intended to transform the soviet union from a
-              peasantry/agricultural
+              Raila Odinga's formative experiences bridged family activism, science education, and a
+              deep curiosity about post-independence governance.
             </NormalText>
           </ParaWrapper>
         </SplitWrapper>
         <ParaWrapper>
           <NormalText>
-            economy to an industrial power. It was meant to help the soviets win more wars and
-            develop a better communist government.
+            His early work as an engineer blended technical expertise with a growing interest in
+            Kenya's push for inclusive politics.
           </NormalText>
         </ParaWrapper>
       </AboutText>

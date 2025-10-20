@@ -49,38 +49,38 @@ const Hero = ({ data }) => {
   return (
     <>
       <SectionWrapper>
-        <Overflow aria-label="Stalin's Rule">
+        <Overflow aria-label="Odinga's Path">
           <BigTitle>
-            <div ref={el => (topText.current[0] = el)}>S</div>
-            <div ref={el => (topText.current[1] = el)}>t</div>
-            <div ref={el => (topText.current[2] = el)}>a</div>
-            <div ref={el => (topText.current[3] = el)}>l</div>
-            <div ref={el => (topText.current[4] = el)}>i</div>
-            <div ref={el => (topText.current[5] = el)}>n</div>
+            <div ref={el => (topText.current[0] = el)}>O</div>
+            <div ref={el => (topText.current[1] = el)}>d</div>
+            <div ref={el => (topText.current[2] = el)}>i</div>
+            <div ref={el => (topText.current[3] = el)}>n</div>
+            <div ref={el => (topText.current[4] = el)}>g</div>
+            <div ref={el => (topText.current[5] = el)}>a</div>
             <div ref={el => (topText.current[6] = el)}>'s</div>{' '}
             <div ref={el => (topText.current[7] = el)} className="break">
-              R
+              P
             </div>
-            <div ref={el => (topText.current[8] = el)}>u</div>
-            <div ref={el => (topText.current[9] = el)}>l</div>
-            <div ref={el => (topText.current[10] = el)}>e</div>
+            <div ref={el => (topText.current[8] = el)}>a</div>
+            <div ref={el => (topText.current[9] = el)}>t</div>
+            <div ref={el => (topText.current[10] = el)}>h</div>
           </BigTitle>
         </Overflow>
-        <Overflow aria-label="In the USSR">
+        <Overflow aria-label="In Kenya's Story">
           <BigTitle smaller>
             <div ref={el => (bottomText.current[0] = el)}>I</div>
             <div ref={el => (bottomText.current[1] = el)}>n</div>{' '}
             <div ref={el => (bottomText.current[2] = el)} className="break">
-              T
+              K
             </div>
-            <div ref={el => (bottomText.current[3] = el)}>h</div>
-            <div ref={el => (bottomText.current[4] = el)}>e </div>
+            <div ref={el => (bottomText.current[3] = el)}>en</div>
+            <div ref={el => (bottomText.current[4] = el)}>ya</div>
             <div ref={el => (bottomText.current[5] = el)} className="break">
-              U
+              's
             </div>
             <div ref={el => (bottomText.current[6] = el)}>S</div>
-            <div ref={el => (bottomText.current[7] = el)}>S</div>
-            <div ref={el => (bottomText.current[8] = el)}>R</div>
+            <div ref={el => (bottomText.current[7] = el)}>t</div>
+            <div ref={el => (bottomText.current[8] = el)}>ory</div>
           </BigTitle>
         </Overflow>
         <ImageWrapper>
@@ -90,7 +90,7 @@ const Hero = ({ data }) => {
               data-scroll
               data-scroll-speed={-1}
               image={data.stalin.childImageSharp.gatsbyImageData}
-              alt="Joseph Stalin"
+              alt="Raila Amolo Odinga"
               style={{ position: 'absolute' }}
               loading="eager"
             />
@@ -101,7 +101,7 @@ const Hero = ({ data }) => {
         <Container>
           <SectionFooter>
             <FooterText>Scroll down</FooterText>
-            <FooterText>2021</FooterText>
+            <FooterText>2025</FooterText>
           </SectionFooter>
         </Container>
       </FooterWrapper>

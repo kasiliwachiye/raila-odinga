@@ -54,13 +54,13 @@ const Hero = ({ data }) => {
           ref={el => (textRef.current[0] = el)}
           style={{ transform: 'translate(-80%, -30%);' }}
           first>
-          <BigTitle>The cult of</BigTitle>
+          <BigTitle>Legacy of</BigTitle>
         </TitleWrapper>
         <TitleWrapper
           ref={el => (textRef.current[1] = el)}
           style={{ transform: 'translate(-150%, -60%);' }}
           second>
-          <BigTitle>personality</BigTitle>
+          <BigTitle>leadership</BigTitle>
         </TitleWrapper>
         <NumberWrapper
           style={{ transform: 'translate(-80%, -90%);' }}
@@ -70,7 +70,7 @@ const Hero = ({ data }) => {
         <ImageWrapper ref={el => (imageRef = el)}>
           <StyledImage
             image={data.cult_poster1.childImageSharp.gatsbyImageData}
-            alt="Stalin"
+            alt="Raila Odinga greeting supporters"
             style={{ position: 'absolute' }}
           />
         </ImageWrapper>

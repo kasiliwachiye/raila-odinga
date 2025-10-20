@@ -44,7 +44,7 @@ const Transition = ({ data }) => {
       <ImageOne ref={el => (image.current[0] = el)}>
         <StyledImage
           image={data.trans_image1.childImageSharp.gatsbyImageData}
-          alt="Stalin"
+          alt="Historic photograph"
           style={{ position: 'absolute' }}
         />
       </ImageOne>
@@ -52,7 +52,7 @@ const Transition = ({ data }) => {
         <ImageTwoWrap ref={el => (image.current[3] = el)}>
           <StyledImage
             image={data.trans_image2.childImageSharp.gatsbyImageData}
-            alt="Stalin"
+            alt="Historic photograph"
             style={{ position: 'absolute' }}
           />
         </ImageTwoWrap>
@@ -60,7 +60,7 @@ const Transition = ({ data }) => {
       <ImageThree ref={el => (image.current[2] = el)}>
         <StyledImage
           image={data.trans_image3.childImageSharp.gatsbyImageData}
-          alt="Stalin"
+          alt="Historic photograph"
           style={{ position: 'absolute' }}
         />
       </ImageThree>
