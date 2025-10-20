@@ -10,7 +10,7 @@ const Hero = ({ data }) => {
       <SecondLineWrap>
         <ImageWrapper>
           <StyledImage
-            image={data.nkvd_police1.childImageSharp.gatsbyImageData}
+            image={data.reforms1.childImageSharp.gatsbyImageData}
             alt="Raila Odinga and Uhuru Kenyatta during the handshake"
             style={{ position: 'absolute' }}
           />

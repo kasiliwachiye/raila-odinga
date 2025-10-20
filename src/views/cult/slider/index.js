@@ -34,19 +34,19 @@ const Slider = ({ data }) => {
       <SliderRow ref={el => (sectionContainer = el)}>
         <ImageContainer>
           <StyledImage
-            image={data.cult_poster3.childImageSharp.gatsbyImageData}
+            image={data.legacy3.childImageSharp.gatsbyImageData}
             alt="Raila Odinga addressing a rally"
           />
         </ImageContainer>
         <ImageContainer>
           <StyledImage
-            image={data.cult_poster4.childImageSharp.gatsbyImageData}
+            image={data.legacy4.childImageSharp.gatsbyImageData}
             alt="Supporters celebrating electoral reforms"
           />
         </ImageContainer>
         <ImageContainer>
           <StyledImage
-            image={data.cult_poster5.childImageSharp.gatsbyImageData}
+            image={data.legacy5.childImageSharp.gatsbyImageData}
             alt="Community meeting with Odinga allies"
           />
         </ImageContainer>

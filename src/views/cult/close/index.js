@@ -69,7 +69,7 @@ const Close = ({ data }) => {
           <Col>
             <ImageWrapper>
               <StyledImage
-                image={data.cult_poster2.childImageSharp.gatsbyImageData}
+                image={data.legacy2.childImageSharp.gatsbyImageData}
                 alt="Raila Odinga at a national memorial service"
               />
             </ImageWrapper>

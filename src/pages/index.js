@@ -29,55 +29,51 @@ export default HomePage;
 export const query = graphql`
   fragment FullWidthImage on File {
     childImageSharp {
-      gatsbyImageData(
-        layout: FULL_WIDTH
-        placeholder: BLURRED
-        formats: [AUTO, WEBP]
-      )
+      gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED, formats: [AUTO, WEBP])
     }
   }
 
   {
-    stalin: file(relativePath: { eq: "stalin.png" }) {
+    raila: file(relativePath: { eq: "raila.png" }) {
       ...FullWidthImage
     }
-    fyp_people: file(relativePath: { eq: "fiveyearplan/people.png" }) {
+    early_life: file(relativePath: { eq: "early-life/el-1.png" }) {
       ...FullWidthImage
     }
-    fyp_poster1: file(relativePath: { eq: "fiveyearplan/poster1.png" }) {
+    early_life1: file(relativePath: { eq: "early-life/el-2.png" }) {
       ...FullWidthImage
     }
-    fyp_poster2: file(relativePath: { eq: "fiveyearplan/poster2.png" }) {
+    early_life2: file(relativePath: { eq: "early-life/el-3.png" }) {
       ...FullWidthImage
     }
-    fyp_poster3: file(relativePath: { eq: "fiveyearplan/poster3.png" }) {
+    early_life3: file(relativePath: { eq: "early-life/el-4.png" }) {
       ...FullWidthImage
     }
-    purge_people: file(relativePath: { eq: "purge/people.png" }) {
+    detention_1: file(relativePath: { eq: "detention/detention-1.png" }) {
       ...FullWidthImage
     }
-    purge_rubble: file(relativePath: { eq: "purge/rubble.png" }) {
+    detention_2: file(relativePath: { eq: "detention/detention-2.png" }) {
       ...FullWidthImage
     }
-    purge_soldiers: file(relativePath: { eq: "purge/soldiers.png" }) {
+    detention_3: file(relativePath: { eq: "detention/detention-3.png" }) {
       ...FullWidthImage
     }
-    prop_poster1: file(relativePath: { eq: "propaganda/poster1.png" }) {
+    election1: file(relativePath: { eq: "elections/elections-1.png" }) {
       ...FullWidthImage
     }
-    prop_poster2: file(relativePath: { eq: "propaganda/poster2.png" }) {
+    election2: file(relativePath: { eq: "elections/elections-2.png" }) {
       ...FullWidthImage
     }
-    prop_poster3: file(relativePath: { eq: "propaganda/poster3.png" }) {
+    election3: file(relativePath: { eq: "elections/elections-3.png" }) {
       ...FullWidthImage
     }
-    prop_poster4: file(relativePath: { eq: "propaganda/poster4.png" }) {
+    election4: file(relativePath: { eq: "elections/elections-4.png" }) {
       ...FullWidthImage
     }
-    prop_poster5: file(relativePath: { eq: "propaganda/poster5.png" }) {
+    election5: file(relativePath: { eq: "elections/elections-5.png" }) {
       ...FullWidthImage
     }
-    prop_poster6: file(relativePath: { eq: "propaganda/poster6.png" }) {
+    election6: file(relativePath: { eq: "elections/elections-6.png" }) {
       ...FullWidthImage
     }
     trans_image1: file(relativePath: { eq: "transition/image1.png" }) {
@@ -89,34 +85,34 @@ export const query = graphql`
     trans_image3: file(relativePath: { eq: "transition/image3.png" }) {
       ...FullWidthImage
     }
-    nkvd_police1: file(relativePath: { eq: "nkvd/police1.png" }) {
+    reforms1: file(relativePath: { eq: "reforms/reforms-1.png" }) {
       ...FullWidthImage
     }
-    nkvd_police2: file(relativePath: { eq: "nkvd/police2.png" }) {
+    reforms2: file(relativePath: { eq: "reforms/reforms-2.png" }) {
       ...FullWidthImage
     }
-    nkvd_police3: file(relativePath: { eq: "nkvd/police3.png" }) {
+    reforms3: file(relativePath: { eq: "reforms/reforms-3.png" }) {
       ...FullWidthImage
     }
-    nkvd_police4: file(relativePath: { eq: "nkvd/police4.png" }) {
+    reforms4: file(relativePath: { eq: "reforms/reforms-4.png" }) {
       ...FullWidthImage
     }
-    nkvd_police5: file(relativePath: { eq: "nkvd/police5.png" }) {
+    reforms5: file(relativePath: { eq: "reforms/reforms-5.png" }) {
       ...FullWidthImage
     }
-    cult_poster1: file(relativePath: { eq: "cult/poster1.png" }) {
+    legacy1: file(relativePath: { eq: "legacy/legacy-1.png" }) {
       ...FullWidthImage
     }
-    cult_poster2: file(relativePath: { eq: "cult/poster2.png" }) {
+    legacy2: file(relativePath: { eq: "legacy/legacy-2.png" }) {
       ...FullWidthImage
     }
-    cult_poster3: file(relativePath: { eq: "cult/poster3.png" }) {
+    legacy3: file(relativePath: { eq: "legacy/legacy-3.png" }) {
       ...FullWidthImage
     }
-    cult_poster4: file(relativePath: { eq: "cult/poster4.png" }) {
+    legacy4: file(relativePath: { eq: "legacy/legacy-4.png" }) {
       ...FullWidthImage
     }
-    cult_poster5: file(relativePath: { eq: "cult/poster5.png" }) {
+    legacy5: file(relativePath: { eq: "legacy/legacy-5.png" }) {
       ...FullWidthImage
     }
   }

@@ -6,7 +6,9 @@ const About = ({ data }) => {
   return (
     <AboutSection>
       <Line1>
-        <NormalText>Odinga contested national elections as a voice for multi-party democracy.</NormalText>
+        <NormalText>
+          Odinga contested national elections as a voice for multi-party democracy.
+        </NormalText>
       </Line1>
       <Line2>
         <NormalText>
@@ -28,7 +30,7 @@ const About = ({ data }) => {
         </Col>
         <Col>
           <StyledImage
-            image={data.prop_poster4.childImageSharp.gatsbyImageData}
+            image={data.election4.childImageSharp.gatsbyImageData}
             alt="Raila Odinga on the campaign trail"
             objectFit="contain"
           />

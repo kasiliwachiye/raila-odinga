@@ -18,7 +18,7 @@ const Close = ({ data }) => {
         <Row row>
           <TopImage data-scroll data-scroll-speed={2}>
             <StyledImage
-              image={data.prop_poster5.childImageSharp.gatsbyImageData}
+              image={data.election5.childImageSharp.gatsbyImageData}
               alt="Supporters waving Raila Odinga banners"
               objectFit="contain"
             />
@@ -32,7 +32,7 @@ const Close = ({ data }) => {
           <BottomImageWrap>
             <BottomImage>
               <StyledImage
-                image={data.prop_poster6.childImageSharp.gatsbyImageData}
+                image={data.election6.childImageSharp.gatsbyImageData}
                 alt="Election officials during a results briefing"
                 objectFit="contain"
               />

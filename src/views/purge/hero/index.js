@@ -22,7 +22,7 @@ const Hero = ({ data }) => {
           <ImageWrapper>
             <ImageContainer>
               <StyledImage
-                image={data.purge_people.childImageSharp.gatsbyImageData}
+                image={data.detention_1.childImageSharp.gatsbyImageData}
                 alt="Raila Odinga speaking after release"
                 style={{ position: 'absolute' }}
               />

@@ -26,14 +26,14 @@ const Results = ({ data }) => {
           <Col image>
             <TopImage data-scroll data-scroll-speed={2}>
               <StyledImage
-                image={data.fyp_poster2.childImageSharp.gatsbyImageData}
+                image={data.early_life2.childImageSharp.gatsbyImageData}
                 alt="Raila Odinga as a young engineer"
                 objectFit="contain"
               />
             </TopImage>
             <BottomImage data-scroll data-scroll-speed={1}>
               <StyledImage
-                image={data.fyp_poster3.childImageSharp.gatsbyImageData}
+                image={data.early_life3.childImageSharp.gatsbyImageData}
                 alt="Archival material from Raila Odinga's early career"
                 objectFit="contain"
               />

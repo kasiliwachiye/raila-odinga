@@ -82,7 +82,7 @@ const Footer = () => {
         <Row>
           <Col>
             <BigTitle>Thanks for</BigTitle>
-            <BigTitle>scrolling</BigTitle>
+            <BigTitle>scrolling!</BigTitle>
           </Col>
           <Col>
             <LinksList>
@@ -152,10 +152,10 @@ const Footer = () => {
           <SmallText>&copy; 2025</SmallText>
           <div>
             <StyledLink
-              href="https://kyryloorlov.com?ref=raila"
+              href="https://www.kasili.dev"
               target="_blank"
               rel="noopener noreferrer">
-              Website by Kyrylo
+              Website by Kasili
             </StyledLink>
           </div>
         </Row>

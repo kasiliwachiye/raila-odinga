@@ -35,7 +35,7 @@ const About = ({ data }) => {
           <Col>
             <ImageAnim ref={el => (image = el)} />
             <StyledImage
-              image={data.fyp_poster1.childImageSharp.gatsbyImageData}
+              image={data.early_life1.childImageSharp.gatsbyImageData}
               alt="Young Raila Odinga during his studies"
               style={{ position: 'absolute' }}
             />

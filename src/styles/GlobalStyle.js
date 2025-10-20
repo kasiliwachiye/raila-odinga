@@ -11,7 +11,7 @@ const GlobalStyle = createGlobalStyle`
   ${Fonts};
 
   :root {
-    --font-family: 'neue-haas-grotesk-display', 'San Francisco', 'SF Pro Text', -apple-system, system-ui, sans-serif;
+    --font-family: 'Manrope', 'neue-haas-grotesk-display', 'San Francisco', 'SF Pro Text', -apple-system, system-ui, sans-serif;
     --font-family-serif: 'Moniqa', 'Times New Roman', Times, serif;
   }
   #___gatsby {
@@ -37,6 +37,7 @@ const GlobalStyle = createGlobalStyle`
     -webkit-font-smoothing: antialiased;
     font-variant-ligatures: common-ligatures;
     text-rendering: optimizelegibility;
+    font-optical-sizing: auto;
     overflow-x: hidden;
     background: var(--background);
     color: var(--text);

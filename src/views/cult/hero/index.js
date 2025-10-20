@@ -69,7 +69,7 @@ const Hero = ({ data }) => {
         </NumberWrapper>
         <ImageWrapper ref={el => (imageRef = el)}>
           <StyledImage
-            image={data.cult_poster1.childImageSharp.gatsbyImageData}
+            image={data.legacy1.childImageSharp.gatsbyImageData}
             alt="Raila Odinga greeting supporters"
             style={{ position: 'absolute' }}
           />

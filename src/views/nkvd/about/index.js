@@ -19,7 +19,7 @@ const About = ({ data }) => {
         </Col>
         <Col>
           <StyledImage
-            image={data.nkvd_police2.childImageSharp.gatsbyImageData}
+            image={data.reforms2.childImageSharp.gatsbyImageData}
             alt="Leaders after the 2018 handshake"
             style={{ position: 'absolute' }}
           />

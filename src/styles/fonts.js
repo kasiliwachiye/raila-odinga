@@ -40,6 +40,7 @@ const createFontFaces = (family, style = 'normal') => {
 const moniqaRegular = createFontFaces(moniqa);
 
 const Fonts = css`
+  @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
   ${moniqaRegular}
 `;
 

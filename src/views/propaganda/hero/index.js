@@ -17,21 +17,21 @@ const Hero = ({ data }) => {
       <Container>
         <TopImage data-scroll data-scroll-speed={1}>
           <StyledImage
-            image={data.prop_poster1.childImageSharp.gatsbyImageData}
+            image={data.election1.childImageSharp.gatsbyImageData}
             alt="Raila Odinga campaign rally"
             objectFit="contain"
           />
         </TopImage>
         <MiddleImage data-scroll data-scroll-speed={3}>
           <StyledImage
-            image={data.prop_poster2.childImageSharp.gatsbyImageData}
+            image={data.election2.childImageSharp.gatsbyImageData}
             alt="Supporters during election campaigns"
             objectFit="contain"
           />
         </MiddleImage>
         <BottomImage data-scroll data-scroll-speed={2}>
           <StyledImage
-            image={data.prop_poster3.childImageSharp.gatsbyImageData}
+            image={data.election3.childImageSharp.gatsbyImageData}
             alt="Queue at a Kenyan polling station"
             objectFit="contain"
           />

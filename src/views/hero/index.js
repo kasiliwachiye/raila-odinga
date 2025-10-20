@@ -74,9 +74,9 @@ const Hero = ({ data }) => {
               K
             </div>
             <div ref={el => (bottomText.current[3] = el)}>en</div>
-            <div ref={el => (bottomText.current[4] = el)}>ya</div>
+            <div ref={el => (bottomText.current[4] = el)}>ya's</div>
             <div ref={el => (bottomText.current[5] = el)} className="break">
-              's
+              {' '}
             </div>
             <div ref={el => (bottomText.current[6] = el)}>S</div>
             <div ref={el => (bottomText.current[7] = el)}>t</div>
@@ -89,7 +89,7 @@ const Hero = ({ data }) => {
             <StyledImage
               data-scroll
               data-scroll-speed={-1}
-              image={data.stalin.childImageSharp.gatsbyImageData}
+              image={data.raila.childImageSharp.gatsbyImageData}
               alt="Raila Amolo Odinga"
               style={{ position: 'absolute' }}
               loading="eager"

@@ -43,7 +43,7 @@ const Politics = ({ data }) => {
         <BigTitle>Reform</BigTitle>
         <ImageWrapper>
           <StyledImage
-            image={data.nkvd_police4.childImageSharp.gatsbyImageData}
+            image={data.reforms4.childImageSharp.gatsbyImageData}
             alt="Leaders affirming the 2010 constitution"
             style={{ position: 'absolute' }}
           />
@@ -63,7 +63,7 @@ const Politics = ({ data }) => {
         </Col>
         <Col>
           <StyledImage
-            image={data.nkvd_police3.childImageSharp.gatsbyImageData}
+            image={data.reforms3.childImageSharp.gatsbyImageData}
             alt="Constitutional referendum celebrations"
             style={{ position: 'absolute' }}
           />
@@ -86,7 +86,7 @@ const Politics = ({ data }) => {
       <Row pt>
         <Col smaller>
           <StyledImage
-            image={data.nkvd_police5.childImageSharp.gatsbyImageData}
+            image={data.reforms5.childImageSharp.gatsbyImageData}
             alt="African Union infrastructure briefing"
             style={{ position: 'absolute' }}
           />

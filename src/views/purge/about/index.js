@@ -8,7 +8,7 @@ const About = ({ data }) => {
     <SecondPanel>
       <Row>
         <StyledImage
-          image={data.purge_rubble.childImageSharp.gatsbyImageData}
+          image={data.detention_2.childImageSharp.gatsbyImageData}
           alt="Supporters calling for Odinga's release"
         />
       </Row>
@@ -35,7 +35,7 @@ const About = ({ data }) => {
           <BigTitleText>August 1987—</BigTitleText>
           <StyledImage
             secondImage
-            image={data.purge_soldiers.childImageSharp.gatsbyImageData}
+            image={data.detention_3.childImageSharp.gatsbyImageData}
             alt="Pro-reform demonstrators during Odinga detentions"
           />
           <StyledRow>
