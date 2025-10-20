@@ -89,10 +89,10 @@ const Hero = ({ data }) => {
             <StyledImage
               data-scroll
               data-scroll-speed={-1}
-              fluid={data.stalin.childImageSharp.fluid}
+              image={data.stalin.childImageSharp.gatsbyImageData}
               alt="Joseph Stalin"
               style={{ position: 'absolute' }}
-              critical
+              loading="eager"
             />
           </ImageContainer>
         </ImageWrapper>

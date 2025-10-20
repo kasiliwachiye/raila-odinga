@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import Img from 'gatsby-image';
+import { GatsbyImage } from 'gatsby-plugin-image';
 
 export const CloseSection = styled.div`
   padding-top: 20vh;
@@ -27,8 +27,12 @@ export const BottomImage = styled.div`
   margin-top: -10%;
   z-index: 2;
 `;
-export const StyledImage = styled(Img)`
+export const StyledImage = styled(GatsbyImage)`
   width: 100%;
+
+  & [data-main-image] {
+    object-fit: cover;
+  }
 `;
 export const NormalText = styled.p`
   position: relative;

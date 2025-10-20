@@ -21,7 +21,7 @@ const Hero = ({ data }) => {
           <ImageWrapper>
             <ImageContainer>
               <StyledImage
-                fluid={data.purge_people.childImageSharp.fluid}
+                image={data.purge_people.childImageSharp.gatsbyImageData}
                 alt="People during the Great Purge"
                 style={{ position: 'absolute' }}
               />

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import Img from 'gatsby-image';
+import { GatsbyImage } from 'gatsby-plugin-image';
 
 export const SliderSection = styled.div`
   position: relative;
@@ -17,9 +17,13 @@ export const ImageContainer = styled.div`
   height: 37vh;
   margin-left: 5vw;
 `;
-export const StyledImage = styled(Img)`
+export const StyledImage = styled(GatsbyImage)`
   width: 100%;
   height: 100%;
+
+  & [data-main-image] {
+    object-fit: cover;
+  }
 `;
 export const TextRow = styled.div`
   display: flex;

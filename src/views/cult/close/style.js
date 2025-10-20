@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import Img from 'gatsby-image';
+import { GatsbyImage } from 'gatsby-plugin-image';
 
 export const AboutSection = styled.div`
   position: relative;
@@ -25,8 +25,12 @@ export const ImageWrapper = styled.div`
   width: 100%;
   z-index: 1;
 `;
-export const StyledImage = styled(Img)`
+export const StyledImage = styled(GatsbyImage)`
   width: 100%;
+
+  & [data-main-image] {
+    object-fit: cover;
+  }
 `;
 export const TopLine = styled.div`
   position: absolute;

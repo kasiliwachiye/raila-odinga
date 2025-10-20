@@ -27,195 +27,97 @@ const HomePage = ({ data }) => {
 export default HomePage;
 
 export const query = graphql`
+  fragment FullWidthImage on File {
+    childImageSharp {
+      gatsbyImageData(
+        layout: FULL_WIDTH
+        placeholder: BLURRED
+        formats: [AUTO, WEBP]
+      )
+    }
+  }
+
   {
     stalin: file(relativePath: { eq: "stalin.png" }) {
-      childImageSharp {
-        fluid(fit: COVER) {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
+      ...FullWidthImage
     }
     fyp_people: file(relativePath: { eq: "fiveyearplan/people.png" }) {
-      childImageSharp {
-        fluid(fit: COVER) {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
+      ...FullWidthImage
     }
     fyp_poster1: file(relativePath: { eq: "fiveyearplan/poster1.png" }) {
-      childImageSharp {
-        fluid(fit: COVER) {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
+      ...FullWidthImage
     }
     fyp_poster2: file(relativePath: { eq: "fiveyearplan/poster2.png" }) {
-      childImageSharp {
-        fluid(fit: COVER) {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
+      ...FullWidthImage
     }
     fyp_poster3: file(relativePath: { eq: "fiveyearplan/poster3.png" }) {
-      childImageSharp {
-        fluid(fit: COVER) {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
+      ...FullWidthImage
     }
     purge_people: file(relativePath: { eq: "purge/people.png" }) {
-      childImageSharp {
-        fluid(fit: COVER) {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
+      ...FullWidthImage
     }
     purge_rubble: file(relativePath: { eq: "purge/rubble.png" }) {
-      childImageSharp {
-        fluid(fit: COVER) {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
+      ...FullWidthImage
     }
     purge_soldiers: file(relativePath: { eq: "purge/soldiers.png" }) {
-      childImageSharp {
-        fluid(fit: COVER) {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
+      ...FullWidthImage
     }
     prop_poster1: file(relativePath: { eq: "propaganda/poster1.png" }) {
-      childImageSharp {
-        fluid(fit: COVER) {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
+      ...FullWidthImage
     }
     prop_poster2: file(relativePath: { eq: "propaganda/poster2.png" }) {
-      childImageSharp {
-        fluid(fit: COVER) {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
+      ...FullWidthImage
     }
     prop_poster3: file(relativePath: { eq: "propaganda/poster3.png" }) {
-      childImageSharp {
-        fluid(fit: COVER) {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
+      ...FullWidthImage
     }
     prop_poster4: file(relativePath: { eq: "propaganda/poster4.png" }) {
-      childImageSharp {
-        fluid(fit: COVER) {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
+      ...FullWidthImage
     }
     prop_poster5: file(relativePath: { eq: "propaganda/poster5.png" }) {
-      childImageSharp {
-        fluid(fit: COVER) {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
+      ...FullWidthImage
     }
     prop_poster6: file(relativePath: { eq: "propaganda/poster6.png" }) {
-      childImageSharp {
-        fluid(fit: COVER) {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
+      ...FullWidthImage
     }
     trans_image1: file(relativePath: { eq: "transition/image1.png" }) {
-      childImageSharp {
-        fluid(fit: COVER) {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
+      ...FullWidthImage
     }
     trans_image2: file(relativePath: { eq: "transition/image2.png" }) {
-      childImageSharp {
-        fluid(fit: COVER) {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
+      ...FullWidthImage
     }
     trans_image3: file(relativePath: { eq: "transition/image3.png" }) {
-      childImageSharp {
-        fluid(fit: COVER) {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
+      ...FullWidthImage
     }
     nkvd_police1: file(relativePath: { eq: "nkvd/police1.png" }) {
-      childImageSharp {
-        fluid(fit: COVER) {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
+      ...FullWidthImage
     }
     nkvd_police2: file(relativePath: { eq: "nkvd/police2.png" }) {
-      childImageSharp {
-        fluid(fit: COVER) {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
+      ...FullWidthImage
     }
     nkvd_police3: file(relativePath: { eq: "nkvd/police3.png" }) {
-      childImageSharp {
-        fluid(fit: COVER) {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
+      ...FullWidthImage
     }
     nkvd_police4: file(relativePath: { eq: "nkvd/police4.png" }) {
-      childImageSharp {
-        fluid(fit: COVER) {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
+      ...FullWidthImage
     }
     nkvd_police5: file(relativePath: { eq: "nkvd/police5.png" }) {
-      childImageSharp {
-        fluid(fit: COVER) {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
+      ...FullWidthImage
     }
     cult_poster1: file(relativePath: { eq: "cult/poster1.png" }) {
-      childImageSharp {
-        fluid(fit: COVER) {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
+      ...FullWidthImage
     }
     cult_poster2: file(relativePath: { eq: "cult/poster2.png" }) {
-      childImageSharp {
-        fluid(fit: COVER) {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
+      ...FullWidthImage
     }
     cult_poster3: file(relativePath: { eq: "cult/poster3.png" }) {
-      childImageSharp {
-        fluid(fit: COVER) {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
+      ...FullWidthImage
     }
     cult_poster4: file(relativePath: { eq: "cult/poster4.png" }) {
-      childImageSharp {
-        fluid(fit: COVER) {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
+      ...FullWidthImage
     }
     cult_poster5: file(relativePath: { eq: "cult/poster5.png" }) {
-      childImageSharp {
-        fluid(fit: COVER) {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
+      ...FullWidthImage
     }
   }
 `;

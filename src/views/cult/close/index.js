@@ -70,7 +70,7 @@ const Close = ({ data }) => {
           <Col>
             <ImageWrapper>
               <StyledImage
-                fluid={data.cult_poster2.childImageSharp.fluid}
+                image={data.cult_poster2.childImageSharp.gatsbyImageData}
                 alt="Cult of personality poster"
               />
             </ImageWrapper>

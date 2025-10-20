@@ -1,17 +1,21 @@
 import styled from 'styled-components';
+import { GatsbyImage } from 'gatsby-plugin-image';
 import { SplitWrapper, Row } from '../style';
-import Img from 'gatsby-image';
 
 export const SecondPanel = styled.div`
   display: flex;
   width: 270vw;
 `;
-export const StyledImage = styled(Img)`
+export const StyledImage = styled(GatsbyImage)`
   position: relative;
   width: ${props => (props.secondImage ? '45vw' : '50vw')};
   height: 80%;
   margin-top: -3vw;
   margin-left: 2vw;
+
+  & [data-main-image] {
+    object-fit: cover;
+  }
 `;
 export const ParagraphWrapper = styled.div`
   width: 40vw;

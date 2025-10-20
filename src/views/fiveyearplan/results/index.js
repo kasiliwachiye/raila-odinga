@@ -26,16 +26,16 @@ const Results = ({ data }) => {
           <Col image>
             <TopImage data-scroll data-scroll-speed={2}>
               <StyledImage
-                fluid={data.fyp_poster2.childImageSharp.fluid}
+                image={data.fyp_poster2.childImageSharp.gatsbyImageData}
                 alt="Propaganda from the Five Year Plan"
-                imgStyle={{ objectFit: 'contain' }}
+                objectFit="contain"
               />
             </TopImage>
             <BottomImage data-scroll data-scroll-speed={1}>
               <StyledImage
-                fluid={data.fyp_poster3.childImageSharp.fluid}
+                image={data.fyp_poster3.childImageSharp.gatsbyImageData}
                 alt="Propaganda from the Five Year Plan"
-                imgStyle={{ objectFit: 'contain' }}
+                objectFit="contain"
               />
             </BottomImage>
           </Col>

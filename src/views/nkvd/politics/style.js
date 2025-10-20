@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import Img from 'gatsby-image';
+import { GatsbyImage } from 'gatsby-plugin-image';
 
 export const PoliticsSection = styled.div`
   padding-top: 35vh;
@@ -25,8 +25,12 @@ export const FirstLine = styled.div`
 export const SecondLine = styled(FirstLine)`
   align-items: center;
 `;
-export const StyledImage = styled(Img)`
+export const StyledImage = styled(GatsbyImage)`
   width: 100%;
+
+  & [data-main-image] {
+    object-fit: cover;
+  }
 `;
 export const ImageWrapper = styled.div`
   position: relative;

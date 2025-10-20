@@ -43,7 +43,7 @@ const Transition = ({ data }) => {
     <TransitionSection ref={el => (sectionContainer = el)}>
       <ImageOne ref={el => (image.current[0] = el)}>
         <StyledImage
-          fluid={data.trans_image1.childImageSharp.fluid}
+          image={data.trans_image1.childImageSharp.gatsbyImageData}
           alt="Stalin"
           style={{ position: 'absolute' }}
         />
@@ -51,7 +51,7 @@ const Transition = ({ data }) => {
       <ImageTwo ref={el => (image.current[1] = el)}>
         <ImageTwoWrap ref={el => (image.current[3] = el)}>
           <StyledImage
-            fluid={data.trans_image2.childImageSharp.fluid}
+            image={data.trans_image2.childImageSharp.gatsbyImageData}
             alt="Stalin"
             style={{ position: 'absolute' }}
           />
@@ -59,7 +59,7 @@ const Transition = ({ data }) => {
       </ImageTwo>
       <ImageThree ref={el => (image.current[2] = el)}>
         <StyledImage
-          fluid={data.trans_image3.childImageSharp.fluid}
+          image={data.trans_image3.childImageSharp.gatsbyImageData}
           alt="Stalin"
           style={{ position: 'absolute' }}
         />

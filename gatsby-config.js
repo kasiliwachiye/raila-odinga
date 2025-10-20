@@ -9,15 +9,13 @@ module.exports = {
     twitterUsername: '@kyryloren',
   },
   plugins: [
+    `gatsby-plugin-image`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-image`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-robots-txt`,
-    `gatsby-background-image`,
     `gatsby-plugin-preload-fonts`,
     {
       resolve: 'gatsby-plugin-web-font-loader',

@@ -67,7 +67,7 @@ const Hero = ({ data }) => {
           <StyledImage
             data-scroll
             data-scroll-speed={-1}
-            fluid={data.fyp_people.childImageSharp.fluid}
+            image={data.fyp_people.childImageSharp.gatsbyImageData}
             alt="People during the Five Year Plan"
             style={{ position: 'absolute' }}
           />

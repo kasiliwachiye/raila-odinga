@@ -8,7 +8,7 @@ const About = ({ data }) => {
     <SecondPanel>
       <Row>
         <StyledImage
-          fluid={data.purge_rubble.childImageSharp.fluid}
+          image={data.purge_rubble.childImageSharp.gatsbyImageData}
           alt="Rubble during the Great Purge"
         />
       </Row>
@@ -36,7 +36,7 @@ const About = ({ data }) => {
           <BigTitleText>August 1936—</BigTitleText>
           <StyledImage
             secondImage
-            fluid={data.purge_soldiers.childImageSharp.fluid}
+            image={data.purge_soldiers.childImageSharp.gatsbyImageData}
             alt="Soldiers during the Great Purge"
           />
           <StyledRow>

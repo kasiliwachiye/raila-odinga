@@ -3,7 +3,7 @@ import { Layout } from './src/components';
 import './src/styles/scroll.css';
 
 export const onClientEntry = () => {
-  // IntersectionObserver polyfill for gatsby-background-image (Safari, IE)
+  // IntersectionObserver polyfill for smooth scroll effects (Safari, IE)
   if (!(`IntersectionObserver` in window)) {
     return import(`intersection-observer`);
   }

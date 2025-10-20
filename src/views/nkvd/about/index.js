@@ -21,7 +21,7 @@ const About = ({ data }) => {
         </Col>
         <Col>
           <StyledImage
-            fluid={data.nkvd_police2.childImageSharp.fluid}
+            image={data.nkvd_police2.childImageSharp.gatsbyImageData}
             alt="Stalin's Secret Police"
             style={{ position: 'absolute' }}
           />

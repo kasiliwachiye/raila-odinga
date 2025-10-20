@@ -10,7 +10,7 @@ const Hero = ({ data }) => {
       <SecondLineWrap>
         <ImageWrapper>
           <StyledImage
-            fluid={data.nkvd_police1.childImageSharp.fluid}
+            image={data.nkvd_police1.childImageSharp.gatsbyImageData}
             alt="Stalin's NKVD"
             style={{ position: 'absolute' }}
           />

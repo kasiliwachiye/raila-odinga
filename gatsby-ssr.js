@@ -1,5 +1,4 @@
 import React from 'react';
-import Terser from 'terser';
 import { Layout } from './src/components';
 
 import { COLOR_MODE_KEY, COLORS, INITIAL_COLOR_MODE_CSS_PROP } from './src/styles/constants';
@@ -41,12 +40,10 @@ const MagicScriptTag = () => {
     .replace('🔑', COLOR_MODE_KEY)
     .replace('⚡️', INITIAL_COLOR_MODE_CSS_PROP);
 
-  let calledFunction = `(${boundFn})()`;
-
-  calledFunction = Terser.minify(calledFunction).code;
+  const inlineScript = `(${boundFn})()`;
 
   // eslint-disable-next-line react/no-danger
-  return <script dangerouslySetInnerHTML={{ __html: calledFunction }} />;
+  return <script dangerouslySetInnerHTML={{ __html: inlineScript }} />;
 };
 
 /**
@@ -74,8 +71,8 @@ const FallbackStyles = () => {
 };
 
 export const onRenderBody = ({ setPreBodyComponents, setHeadComponents }) => {
-  setHeadComponents(<FallbackStyles />);
-  setPreBodyComponents(<MagicScriptTag />);
+  setHeadComponents([<FallbackStyles key="color-mode-fallback" />]);
+  setPreBodyComponents([<MagicScriptTag key="color-mode-script" />]);
 };
 
 export const wrapPageElement = ({ element, props }) => {

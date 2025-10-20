@@ -35,7 +35,7 @@ const About = ({ data }) => {
           <Col>
             <ImageAnim ref={el => (image = el)} />
             <StyledImage
-              fluid={data.fyp_poster1.childImageSharp.fluid}
+              image={data.fyp_poster1.childImageSharp.gatsbyImageData}
               alt="Propaganda from the Five Year Plan"
               style={{ position: 'absolute' }}
             />

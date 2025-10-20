@@ -1,13 +1,17 @@
 import styled from 'styled-components';
-import Img from 'gatsby-image';
+import { GatsbyImage } from 'gatsby-plugin-image';
 
 export const TransitionSection = styled.section`
   position: relative;
   height: 100vh;
 `;
-export const StyledImage = styled(Img)`
+export const StyledImage = styled(GatsbyImage)`
   width: 100%;
   height: 100%;
+
+  & [data-main-image] {
+    object-fit: cover;
+  }
 `;
 export const ImageOne = styled.div`
   position: absolute;

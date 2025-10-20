@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import Img from 'gatsby-image';
+import { GatsbyImage } from 'gatsby-plugin-image';
 
 export const AboutSection = styled.div`
   margin-top: -80vh;
@@ -22,8 +22,12 @@ export const Col = styled.div`
     padding-top: 4vw;
   }
 `;
-export const StyledImage = styled(Img)`
+export const StyledImage = styled(GatsbyImage)`
   width: 100%;
+
+  & [data-main-image] {
+    object-fit: cover;
+  }
 `;
 export const NormalText = styled.p`
   font-size: 3.25vw;

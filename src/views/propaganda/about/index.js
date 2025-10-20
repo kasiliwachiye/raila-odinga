@@ -29,9 +29,9 @@ const About = ({ data }) => {
         </Col>
         <Col>
           <StyledImage
-            fluid={data.prop_poster4.childImageSharp.fluid}
+            image={data.prop_poster4.childImageSharp.gatsbyImageData}
             alt="Stalin's propaganda"
-            imgStyle={{ objectFit: 'contain' }}
+            objectFit="contain"
           />
         </Col>
       </Row>

@@ -43,7 +43,7 @@ const Politics = ({ data }) => {
         <BigTitle>Control</BigTitle>
         <ImageWrapper>
           <StyledImage
-            fluid={data.nkvd_police4.childImageSharp.fluid}
+            image={data.nkvd_police4.childImageSharp.gatsbyImageData}
             alt="Stalin's NKVD"
             style={{ position: 'absolute' }}
           />
@@ -63,7 +63,7 @@ const Politics = ({ data }) => {
         </Col>
         <Col>
           <StyledImage
-            fluid={data.nkvd_police3.childImageSharp.fluid}
+            image={data.nkvd_police3.childImageSharp.gatsbyImageData}
             alt="Stalin's Secret Police"
             style={{ position: 'absolute' }}
           />
@@ -85,7 +85,7 @@ const Politics = ({ data }) => {
       <Row pt>
         <Col smaller>
           <StyledImage
-            fluid={data.nkvd_police5.childImageSharp.fluid}
+            image={data.nkvd_police5.childImageSharp.gatsbyImageData}
             alt="Stalin's Secret Police"
             style={{ position: 'absolute' }}
           />

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import Img from 'gatsby-image';
+import { GatsbyImage } from 'gatsby-plugin-image';
 
 export const HeroSection = styled.div`
   padding-top: 35vh;
@@ -20,8 +20,12 @@ export const BigTitleText = styled.h1`
   margin: 0;
   line-height: 95%;
 `;
-export const StyledImage = styled(Img)`
+export const StyledImage = styled(GatsbyImage)`
   width: 100%;
+
+  & [data-main-image] {
+    object-fit: cover;
+  }
 `;
 export const TopImage = styled.div`
   position: absolute;

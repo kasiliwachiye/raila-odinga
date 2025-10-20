@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import Img from 'gatsby-image';
+import { GatsbyImage } from 'gatsby-plugin-image';
 
 export const HeroSection = styled.div`
   position: relative;
@@ -39,9 +39,13 @@ export const ImageWrapper = styled.div`
   opacity: 0;
   transform: translate(-50%, -50%);
 `;
-export const StyledImage = styled(Img)`
+export const StyledImage = styled(GatsbyImage)`
   width: 100%;
   height: 100%;
+
+  & [data-main-image] {
+    object-fit: cover;
+  }
 `;
 export const NumberWrapper = styled.div`
   position: absolute;

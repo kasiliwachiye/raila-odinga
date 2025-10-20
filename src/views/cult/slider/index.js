@@ -34,19 +34,19 @@ const Slider = ({ data }) => {
       <SliderRow ref={el => (sectionContainer = el)}>
         <ImageContainer>
           <StyledImage
-            fluid={data.cult_poster3.childImageSharp.fluid}
+            image={data.cult_poster3.childImageSharp.gatsbyImageData}
             alt="Cult of personality poster"
           />
         </ImageContainer>
         <ImageContainer>
           <StyledImage
-            fluid={data.cult_poster4.childImageSharp.fluid}
+            image={data.cult_poster4.childImageSharp.gatsbyImageData}
             alt="Cult of personality poster"
           />
         </ImageContainer>
         <ImageContainer>
           <StyledImage
-            fluid={data.cult_poster5.childImageSharp.fluid}
+            image={data.cult_poster5.childImageSharp.gatsbyImageData}
             alt="Cult of personality poster"
           />
         </ImageContainer>

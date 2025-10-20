@@ -69,7 +69,7 @@ const Hero = ({ data }) => {
         </NumberWrapper>
         <ImageWrapper ref={el => (imageRef = el)}>
           <StyledImage
-            fluid={data.cult_poster1.childImageSharp.fluid}
+            image={data.cult_poster1.childImageSharp.gatsbyImageData}
             alt="Stalin"
             style={{ position: 'absolute' }}
           />

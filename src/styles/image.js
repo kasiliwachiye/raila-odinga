@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import BackgroundImage from 'gatsby-background-image';
+import { GatsbyImage } from 'gatsby-plugin-image';
 
 export const ImageAnim = styled.div`
   position: absolute;
@@ -12,11 +12,14 @@ export const ImageAnim = styled.div`
   transform-origin: center bottom;
   height: 100%;
 `;
-export const StyledImage = styled(BackgroundImage)`
+export const StyledImage = styled(GatsbyImage)`
   position: absolute;
-  background-size: cover;
   top: 0;
   left: -5%;
   right: -5%;
   bottom: -5%;
+
+  & [data-main-image] {
+    object-fit: cover;
+  }
 `;

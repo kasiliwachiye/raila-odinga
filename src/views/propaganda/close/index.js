@@ -18,9 +18,9 @@ const Close = ({ data }) => {
         <Row row>
           <TopImage data-scroll data-scroll-speed={2}>
             <StyledImage
-              fluid={data.prop_poster5.childImageSharp.fluid}
+              image={data.prop_poster5.childImageSharp.gatsbyImageData}
               alt="Stalin's propaganda"
-              imgStyle={{ objectFit: 'contain' }}
+              objectFit="contain"
             />
           </TopImage>
           <NormalText>
@@ -32,9 +32,9 @@ const Close = ({ data }) => {
           <BottomImageWrap>
             <BottomImage>
               <StyledImage
-                fluid={data.prop_poster6.childImageSharp.fluid}
+                image={data.prop_poster6.childImageSharp.gatsbyImageData}
                 alt="Stalin's propaganda"
-                imgStyle={{ objectFit: 'contain' }}
+                objectFit="contain"
               />
             </BottomImage>
           </BottomImageWrap>

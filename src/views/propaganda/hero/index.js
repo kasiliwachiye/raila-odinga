@@ -17,23 +17,23 @@ const Hero = ({ data }) => {
       <Container>
         <TopImage data-scroll data-scroll-speed={1}>
           <StyledImage
-            fluid={data.prop_poster1.childImageSharp.fluid}
+            image={data.prop_poster1.childImageSharp.gatsbyImageData}
             alt="Stalin's propaganda"
-            imgStyle={{ objectFit: 'contain' }}
+            objectFit="contain"
           />
         </TopImage>
         <MiddleImage data-scroll data-scroll-speed={3}>
           <StyledImage
-            fluid={data.prop_poster2.childImageSharp.fluid}
+            image={data.prop_poster2.childImageSharp.gatsbyImageData}
             alt="Stalin's propaganda"
-            imgStyle={{ objectFit: 'contain' }}
+            objectFit="contain"
           />
         </MiddleImage>
         <BottomImage data-scroll data-scroll-speed={2}>
           <StyledImage
-            fluid={data.prop_poster3.childImageSharp.fluid}
+            image={data.prop_poster3.childImageSharp.gatsbyImageData}
             alt="Stalin's propaganda"
-            imgStyle={{ objectFit: 'contain' }}
+            objectFit="contain"
           />
         </BottomImage>
         <NumberWrapper data-scroll data-scroll-speed={2}>
