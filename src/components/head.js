@@ -4,8 +4,6 @@ import { Helmet } from 'react-helmet';
 import { useLocation } from '@reach/router';
 import { useStaticQuery, graphql } from 'gatsby';
 
-import SafariPinnedTab from '@images/favicon/safari-pinned-tab.svg';
-
 const Head = ({ title, description, image }) => {
   const { pathname } = useLocation();
 
@@ -44,7 +42,7 @@ const Head = ({ title, description, image }) => {
     <Helmet title={title} defaultTitle={seo.title} titleTemplate={`%s | ${defaultTitle}`}>
       <html lang="en" />
 
-      <link rel="mask-icon" href={SafariPinnedTab} color="#555555" />
+
       <meta name="msapplication-TileColor" content="#d3b9b9" />
 
       <meta name="description" content={seo.description} />

@@ -4,9 +4,9 @@ module.exports = {
   siteMetadata: {
     title: `Raila Odinga's Journey in Kenya`,
     description: `Raila Amolo Odinga is a Kenyan political leader whose career spans engineering, activism, and national reform.`,
-    siteUrl: 'https://raila.kyryloorlov.com',
+    siteUrl: 'https://raila-odinga-path.netlify.app',
     image: '/og.png',
-    twitterUsername: '@kyryloren',
+    twitterUsername: '@kasili_dev',
   },
   plugins: [
     `gatsby-plugin-image`,

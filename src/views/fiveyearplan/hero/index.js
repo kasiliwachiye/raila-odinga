@@ -60,7 +60,7 @@ const Hero = ({ data }) => {
             </Overflow>
           </BigTitle>
           <Overflow>
-            <SubTitle ref={el => (titleText.current[3] = el)}>Jan 7, 1945—Early Career</SubTitle>
+            <SubTitle ref={el => (titleText.current[3] = el)}>Jan 7, 1945 - Early Career</SubTitle>
           </Overflow>
         </ColItem>
         <ColItem image>
@@ -68,7 +68,7 @@ const Hero = ({ data }) => {
             data-scroll
             data-scroll-speed={-1}
             image={data.early_life.childImageSharp.gatsbyImageData}
-            alt="People during the Five Year Plan"
+            alt="Raila Odinga during his early years abroad"
             style={{ position: 'absolute' }}
           />
         </ColItem>
@@ -99,3 +99,6 @@ const Hero = ({ data }) => {
 };
 
 export default Hero;
+
+
+

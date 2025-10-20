@@ -60,11 +60,11 @@ const Nav = () => {
       <NavWrap>
         <div />
         <div>
-          <NavLink onClick={() => scrollToSection('personality')}>Legacy</NavLink>
-          <NavLink onClick={() => scrollToSection('purge')}>Detentions</NavLink>
-          <NavLink onClick={() => scrollToSection('nkvd')}>Reform</NavLink>
-          <NavLink onClick={() => scrollToSection('economy')}>Early Life</NavLink>
-          <NavLink onClick={() => scrollToSection('propaganda')}>Elections</NavLink>
+          <NavLink onClick={() => scrollToSection('legacy')}>Legacy</NavLink>
+          <NavLink onClick={() => scrollToSection('detentions')}>Detentions</NavLink>
+          <NavLink onClick={() => scrollToSection('reform')}>Reform</NavLink>
+          <NavLink onClick={() => scrollToSection('early-life')}>Early Life</NavLink>
+          <NavLink onClick={() => scrollToSection('elections')}>Elections</NavLink>
         </div>
         <TogglerWrapper>
           <label>
@@ -84,3 +84,4 @@ const Nav = () => {
 };
 
 export default Nav;
+

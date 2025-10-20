@@ -49,7 +49,7 @@ const Hero = ({ data }) => {
 
   return (
     <HeroSection ref={el => (sectionContainer = el)}>
-      <div id="personality">
+      <div id="legacy">
         <TitleWrapper
           ref={el => (textRef.current[0] = el)}
           style={{ transform: 'translate(-80%, -30%);' }}
@@ -80,3 +80,4 @@ const Hero = ({ data }) => {
 };
 
 export default Hero;
+

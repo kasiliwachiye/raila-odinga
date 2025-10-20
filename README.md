@@ -1,20 +1,3 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Logo" src="https://i.imgur.com/XQQhbj4.png" width="130" />
-  </a>
-</p>
-<h1 align="center">
-  raila.kyryloorlov.com
-</h1>
-<p align="center">
-  The Raila Odinga Journey website, built with <a href="https://www.gatsbyjs.org" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com" target="_blank">Netlify</a>.
-</p>
-<p align="center">
-  <a href="https://app.netlify.com/sites/kyrylo-v4/deploys" target="_blank">
-    <img src="https://api.netlify.com/api/v1/badges/42775bec-bdbc-4d53-849c-9a475750902d/deploy-status" alt="Netlify status" />
-  </a>
-</p>
-
 ![hero](https://i.imgur.com/5s12bCv.png)
 
 ## 🚀 Installing

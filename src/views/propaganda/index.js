@@ -30,7 +30,7 @@ const Purge = ({ data }) => {
 
   return (
     <StyledSection>
-      <div ref={el => (scrollContainer = el)} id="propaganda">
+      <div ref={el => (scrollContainer = el)} id="elections">
         <Hero data={data} />
       </div>
       <Container>
@@ -42,3 +42,4 @@ const Purge = ({ data }) => {
 };
 
 export default Purge;
+

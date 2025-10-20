@@ -18,7 +18,7 @@ const Slider = ({ data }) => {
       ScrollTrigger.create({
         trigger: sectionContainer,
         start: 'top bottom',
-        end: ' +=2000 top',
+        end: '+=2000 top',
         scroller: '#___gatsby',
         animation: tl,
         scrub: true,
@@ -73,3 +73,4 @@ const Slider = ({ data }) => {
 };
 
 export default Slider;
+

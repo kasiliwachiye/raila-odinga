@@ -8,15 +8,15 @@ const HomePage = ({ data }) => {
   return (
     <>
       <Hero data={data} />
-      <div id="economy">
+      <div id="early-life">
         <FiveYearPlan data={data} />
       </div>
-      <div id="purge">
+      <div id="detentions">
         <Purge data={data} />
       </div>
       <Propaganda data={data} />
       <Transition data={data} />
-      <div id="nkvd">
+      <div id="reform">
         <NKVD data={data} />
       </div>
       <Cult data={data} />
@@ -117,3 +117,4 @@ export const query = graphql`
     }
   }
 `;
+

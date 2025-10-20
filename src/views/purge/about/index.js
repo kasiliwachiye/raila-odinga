@@ -53,3 +53,6 @@ const About = ({ data }) => {
 };
 
 export default About;
+
+
+
